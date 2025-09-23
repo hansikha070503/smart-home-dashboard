@@ -1,0 +1,1295 @@
+views:
+  - title: Home
+    sections:
+      - type: grid
+        cards:
+          - type: picture-elements
+            elements:
+              - type: image
+                entity: light.aqara_smart_wall_switch_z1_pro_3
+                image: mr3fan
+                state_image:
+                  'on': /local/icons/fan_offf.png
+                  'off': /local/icons/fan_off.png
+                tap_action:
+                  action: toggle
+                style:
+                  top: 66%
+                  left: 61%
+                  width: 5%
+                  transform: translate(-50%, -50%)
+                  transform-origin: 50% 50%
+                card_mod:
+                  style: |
+                    :host {
+                      animation: spin 2s linear infinite;
+                      {% if is_state('light.aqara_smart_wall_switch_z1_pro_3','on') %}
+                        animation-play-state: running;
+                      {% else %}
+                        animation-play-state: paused;
+                      {% endif %}
+                    }
+                    @keyframes spin {
+                      from { transform: translate(-50%, -50%) rotate(0deg); }
+                      to   { transform: translate(-50%, -50%) rotate(360deg); }
+                    }
+              - type: image
+                entity: light.aqara_smart_wall_switch_z1_pro_5
+                image: salesfan
+                state_image:
+                  'on': /local/icons/fan_offf.png
+                  'off': /local/icons/fan_off.png
+                tap_action:
+                  action: toggle
+                style:
+                  top: 81%
+                  left: 23%
+                  width: 5%
+                  transform: translate(-50%, -50%)
+                  transform-origin: 50% 50%
+                card_mod:
+                  style: |
+                    :host {
+                      animation: spin 2s linear infinite;
+                      {% if is_state('light.aqara_smart_wall_switch_z1_pro_5','on') %}
+                        animation-play-state: running;
+                      {% else %}
+                        animation-play-state: paused;
+                      {% endif %}
+                    }
+                    @keyframes spin {
+                      from { transform: translate(-50%, -50%) rotate(0deg); }
+                      to   { transform: translate(-50%, -50%) rotate(360deg); }
+                    }
+              - type: image
+                entity: light.aqara_smart_wall_switch_z1_pro_6
+                image: crmfan1
+                state_image:
+                  'on': /local/icons/fan_offf.png
+                  'off': /local/icons/fan_off.png
+                tap_action:
+                  action: toggle
+                style:
+                  top: 56%
+                  left: 23%
+                  width: 5%
+                  transform: translate(-50%, -50%)
+                  transform-origin: 50% 50%
+                card_mod:
+                  style: |
+                    :host {
+                      animation: spin 2s linear infinite;
+                      {% if is_state('light.aqara_smart_wall_switch_z1_pro_6','on') %}
+                        animation-play-state: running;
+                      {% else %}
+                        animation-play-state: paused;
+                      {% endif %}
+                    }
+                    @keyframes spin {
+                      from { transform: translate(-50%, -50%) rotate(0deg); }
+                      to   { transform: translate(-50%, -50%) rotate(360deg); }
+                    }
+              - type: image
+                entity: light.aqara_smart_wall_switch_z1_pro_7
+                image: crmfan2
+                state_image:
+                  'on': /local/icons/fan_offf.png
+                  'off': /local/icons/fan_off.png
+                tap_action:
+                  action: toggle
+                style:
+                  top: 56%
+                  left: 13.6%
+                  width: 5%
+                  transform: translate(-50%, -50%)
+                  transform-origin: 50% 50%
+                card_mod:
+                  style: |
+                    :host {
+                      animation: spin 2s linear infinite;
+                      {% if is_state('light.aqara_smart_wall_switch_z1_pro_7','on') %}
+                        animation-play-state: running;
+                      {% else %}
+                        animation-play-state: paused;
+                      {% endif %}
+                    }
+                    @keyframes spin {
+                      from { transform: translate(-50%, -50%) rotate(0deg); }
+                      to   { transform: translate(-50%, -50%) rotate(360deg); }
+                    }
+              - type: image
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 62%
+                  top: 37%
+                  width: 2%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: light.aqara_smart_wall_switch_z1_pro_15
+                title: lobbylight1
+              - type: image
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 51%
+                  top: 37%
+                  width: 2%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: light.aqara_smart_wall_switch_z1_pro_15
+                title: lobbylight1
+              - type: image
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 51%
+                  top: 10%
+                  width: 2%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: light.aqara_smart_wall_switch_z1_pro_16
+                title: lobbylight2
+              - type: image
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 62%
+                  top: 10%
+                  width: 2%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: light.aqara_smart_wall_switch_z1_pro_16
+                title: lobbylight2
+              - type: image
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 62%
+                  top: 50%
+                  width: 2%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: light.aqara_smart_wall_switch_z1_pro_17
+                title: lobbylight3
+              - type: image
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 51%
+                  top: 50%
+                  width: 2%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: light.aqara_smart_wall_switch_z1_pro_17
+                title: lobbylight3
+              - type: image
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 51%
+                  top: 65%
+                  width: 2%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: light.aqara_smart_wall_switch_z1_pro_17
+                title: lobbylight3
+              - type: image
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 33%
+                  top: 65%
+                  width: 2%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: light.aqara_smart_wall_switch_z1_pro_17
+                title: lobbylight3
+              - type: image
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 41.5%
+                  top: 65%
+                  width: 2%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: light.aqara_smart_wall_switch_z1_pro_2
+                title: lobbylight4
+              - type: image
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 62%
+                  top: 87%
+                  width: 2%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                title: mr4light
+                entity: light.aqara_smart_wall_switch_z1_pro_18
+              - type: image
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 62%
+                  top: 77%
+                  width: 2%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: light.aqara_smart_wall_switch_z1_pro_18
+                title: mr4light
+              - type: image
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 45%
+                  top: 55%
+                  width: 2%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: light.aqara_smart_wall_switch_z1_pro_11
+                title: mr2light1
+              - type: image
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 33%
+                  top: 55%
+                  width: 2%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: light.aqara_smart_wall_switch_z1_pro_11
+                title: mr2light1
+              - type: image
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 45%
+                  top: 43%
+                  width: 2%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: light.aqara_smart_wall_switch_z1_pro_12
+                title: mr2light2
+              - type: image
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 33%
+                  top: 43%
+                  width: 2%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: light.aqara_smart_wall_switch_z1_pro_12
+                title: mr2light2
+              - type: image
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 72.5%
+                  top: 50%
+                  width: 2%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: light.aqara_single_switch_module_t1
+                title: storelight
+              - type: image
+                image: /local/icons/lampoff.png
+                state_image:
+                  'on': /local/icons/lampof.png?v=2222
+                  'off': /local/icons/lamponn.png?v=2222
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 64.3%
+                  top: 63.5%
+                  width: 1.8%
+                  transform: rotate(270deg)
+                  transform-origin: center
+                entity: light.aqara_smart_wall_switch_z1_pro_4
+                title: mr3walllight
+              - type: image
+                image: /local/icons/lampoff.png
+                state_image:
+                  'on': /local/icons/lampof.png?v=2222
+                  'off': /local/icons/lamponn.png?v=2222
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 64.3%
+                  top: 31%
+                  width: 1.8%
+                  transform: rotate(270deg)
+                  transform-origin: center
+                entity: light.aqara_smart_wall_switch_z1_pro_14
+                title: lobbywalllight2
+              - type: image
+                image: /local/icons/lampoff.png
+                state_image:
+                  'on': /local/icons/lampof.png?v=2222
+                  'off': /local/icons/lamponn.png?v=2222
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 6.8%
+                  top: 51%
+                  width: 1.8%
+                  transform: rotate(90deg)
+                  transform-origin: center
+                entity: light.aqara_smart_wall_switch_z1_pro
+                title: crmwalllight2
+              - type: image
+                image: /local/icons/lampoff.png
+                state_image:
+                  'on': /local/icons/lampof.png?v=2222
+                  'off': /local/icons/lamponn.png?v=2222
+                hold_action:
+                  action: more-info
+                style:
+                  left: 12%
+                  top: 43.4%
+                  width: 1.8%
+                  transform: rotate(180deg)
+                  transform-origin: center
+                entity: light.aqara_smart_wall_switch_z1_pro_8
+                title: crmwalllight1
+                tap_action:
+                  action: toggle
+              - type: image
+                image: /local/icons/lampoff.png
+                state_image:
+                  'on': /local/icons/lampof.png?v=2222
+                  'off': /local/icons/lamponn.png?v=2222
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 6.8%
+                  top: 82%
+                  width: 1.8%
+                  transform: rotate(90deg)
+                  transform-origin: center
+                entity: light.aqara_smart_wall_switch_z1_pro_9
+                title: saleswalllight
+              - type: image
+                entity: light.aqara_smart_wall_switch_z1_pro_13
+                image: mr3fan
+                state_image:
+                  'on': /local/icons/fan_offf.png
+                  'off': /local/icons/fan_off.png
+                tap_action:
+                  action: toggle
+                style:
+                  top: 52%
+                  left: 40%
+                  width: 5%
+                  transform: translate(-50%, -50%)
+                  transform-origin: 50% 50%
+                card_mod:
+                  style: |
+                    :host {
+                      animation: spin 2s linear infinite;
+                      {% if is_state('light.aqara_smart_wall_switch_z1_pro_13','on') %}
+                        animation-play-state: running;
+                      {% else %}
+                        animation-play-state: paused;
+                      {% endif %}
+                    }
+                    @keyframes spin {
+                      from { transform: translate(-50%, -50%) rotate(0deg); }
+                      to   { transform: translate(-50%, -50%) rotate(360deg); }
+                    }
+              - type: image
+                style:
+                  left: 51%
+                  top: 77%
+                  width: 2%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: switch.prithvi_light_2
+                title: mr4light
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+                tap_action:
+                  action: toggle
+              - type: image
+                style:
+                  left: 45%
+                  top: 75%
+                  width: 2%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+                image: /local/icons/bulboff.png
+                entity: switch.magic_switch_s1e_aa9f_switch_3
+                title: mr5l1
+                tap_action:
+                  action: toggle
+              - type: image
+                style:
+                  left: 45%
+                  top: 88%
+                  width: 2%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+                entity: switch.magic_switch_s1e_aa9f_switch_3
+                title: rm5l1
+                tap_action:
+                  action: toggle
+              - type: image
+                style:
+                  left: 33%
+                  top: 75%
+                  width: 2%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                title: rm5_l2
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+                entity: switch.magic_switch_s1e_aa9f_switch_2
+                tap_action:
+                  action: toggle
+              - type: image
+                style:
+                  left: 33%
+                  top: 88%
+                  width: 2%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: switch.magic_switch_s1e_aa9f_switch_2
+                title: rm5_l2
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+              - type: image
+                entity: switch.prithvi_fan
+                image: prithvifan1
+                state_image:
+                  'on': /local/icons/fan_offf.png
+                  'off': /local/icons/fan_off.png
+                tap_action:
+                  action: toggle
+                style:
+                  top: 84%
+                  left: 58%
+                  width: 5%
+                  transform: translate(-50%, -50%)
+                  transform-origin: 50% 50%
+                card_mod:
+                  style: |
+                    :host {
+                      animation: spin 2s linear infinite;
+                      {% if is_state('switch.prithvi_fan','on') %}
+                        animation-play-state: running;
+                      {% else %}
+                        animation-play-state: paused;
+                      {% endif %}
+                    }
+                    @keyframes spin {
+                      from { transform: translate(-50%, -50%) rotate(0deg); }
+                      to   { transform: translate(-50%, -50%) rotate(360deg); }
+                    }
+              - type: image
+                style:
+                  left: 51%
+                  top: 87%
+                  width: 2%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: switch.prithvi_light_2
+                title: mr4light
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+                tap_action:
+                  action: toggle
+              - type: image
+                style:
+                  left: 57%
+                  top: 89.2%
+                  width: 1.8%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: switch.prithvi_wall_light
+                title: prithviwalllight
+                image: /local/icons/lampoff.png
+                state_image:
+                  'on': /local/icons/lampof.png?v=2222
+                  'off': /local/icons/lamponn.png?v=2222
+                tap_action:
+                  action: toggle
+              - type: image
+                style:
+                  left: 10%
+                  top: 89.2%
+                  width: 1.8%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: switch.magic_switch_s1e_ad6d_switch_3
+                image: /local/icons/lampoff.png
+                state_image:
+                  'on': /local/icons/lampof.png?v=2222
+                  'off': /local/icons/lamponn.png?v=2222
+                title: walllight7
+                tap_action:
+                  action: toggle
+              - type: image
+                entity: switch.magic_switch_s1e_aa9f_switch_1
+                image: rm5_fan
+                state_image:
+                  'on': /local/icons/fan_offf.png
+                  'off': /local/icons/fan_off.png
+                tap_action:
+                  action: toggle
+                style:
+                  top: 83%
+                  left: 39%
+                  width: 5%
+                  transform: translate(-50%, -50%)
+                  transform-origin: 50% 50%
+                card_mod:
+                  style: |
+                    :host {
+                      animation: spin 2s linear infinite;
+                      {% if is_state('switch.magic_switch_s1e_aa9f_switch_1','on') %}
+                        animation-play-state: running;
+                      {% else %}
+                        animation-play-state: paused;
+                      {% endif %}
+                    }
+                    @keyframes spin {
+                      from { transform: translate(-50%, -50%) rotate(0deg); }
+                      to   { transform: translate(-50%, -50%) rotate(360deg); }
+                    }
+              - type: image
+                style:
+                  left: 16.8%
+                  top: 79%
+                  width: 3%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: switch.magic_switch_s1e_ad6d_switch_1
+                title: sales hanglinglight
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+                tap_action:
+                  action: toggle
+              - type: image
+                style:
+                  left: 16.8%
+                  top: 54%
+                  width: 3%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: switch.magic_switch_s1e_ad6d_switch_2
+                title: cmr hanging light
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+                tap_action:
+                  action: toggle
+              - type: image
+                entity: switch.magic_switch_s1e_ad70_switch_1
+                image: lobby_fan_1
+                state_image:
+                  'on': /local/icons/fan_offf.png
+                  'off': /local/icons/fan_off.png
+                tap_action:
+                  action: toggle
+                style:
+                  top: 15%
+                  left: 58%
+                  width: 5%
+                  transform: translate(-50%, -50%)
+                  transform-origin: 50% 50%
+                card_mod:
+                  style: |
+                    :host {
+                      animation: spin 2s linear infinite;
+                      {% if is_state('switch.magic_switch_s1e_ad70_switch_1','on') %}
+                        animation-play-state: running;
+                      {% else %}
+                        animation-play-state: paused;
+                      {% endif %}
+                    }
+                    @keyframes spin {
+                      from { transform: translate(-50%, -50%) rotate(0deg); }
+                      to   { transform: translate(-50%, -50%) rotate(360deg); }
+                    }
+              - type: image
+                entity: switch.magic_switch_s1e_ad70_switch_2
+                image: lobby_fan_2
+                state_image:
+                  'on': /local/icons/fan_offf.png
+                  'off': /local/icons/fan_off.png
+                tap_action:
+                  action: toggle
+                style:
+                  top: 33%
+                  left: 58%
+                  width: 5%
+                  transform: translate(-50%, -50%)
+                  transform-origin: 50% 50%
+                card_mod:
+                  style: |
+                    :host {
+                      animation: spin 2s linear infinite;
+                      {% if is_state('switch.magic_switch_s1e_ad70_switch_2','on') %}
+                        animation-play-state: running;
+                      {% else %}
+                        animation-play-state: paused;
+                      {% endif %}
+                    }
+                    @keyframes spin {
+                      from { transform: translate(-50%, -50%) rotate(0deg); }
+                      to   { transform: translate(-50%, -50%) rotate(360deg); }
+                    }
+              - type: image
+                style:
+                  left: 55%
+                  top: 4.7%
+                  width: 1.8%
+                  transform: rotate(180deg)
+                  transform-origin: center
+                entity: switch.magic_switch_s1e_ad70_switch_3
+                title: lobbywalllight1
+                image: /local/icons/lampoff.png
+                state_image:
+                  'on': /local/icons/lampof.png?v=2222
+                  'off': /local/icons/lamponn.png?v=2222
+                tap_action:
+                  action: toggle
+              - type: image
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 56.3%
+                  top: 22%
+                  width: 3%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: light.aqara_smart_wall_switch_z1_pro_16
+                title: lobbylight2
+              - type: image
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 45%
+                  top: 36%
+                  width: 2%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: switch.magicpad_s1_plus_305c_switch1
+                title: agnilight1
+              - type: image
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 33.5%
+                  top: 36%
+                  width: 2%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: switch.magicpad_s1_plus_305c_switch1
+                title: agnilight1
+              - type: image
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 33.5%
+                  top: 26%
+                  width: 2%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: switch.magicpad_s1_plus_305c_switch1
+                title: agnilight1
+              - type: image
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 45%
+                  top: 26%
+                  width: 2%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: switch.magicpad_s1_plus_305c_switch1
+                title: agnilight1
+              - type: image
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 38.7%
+                  top: 16%
+                  width: 2%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: switch.magicpad_s1_plus_305c_switch1
+                title: agnilight1
+              - type: image
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 45%
+                  top: 7%
+                  width: 2%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                title: agnilight2
+                entity: switch.magicpad_s1_plus_305c_switch2
+              - type: image
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 33.5%
+                  top: 7%
+                  width: 2%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                title: agnilight2
+                entity: switch.magicpad_s1_plus_305c_switch2
+              - type: image
+                entity: switch.magicpad_s1_plus_305c_switch3
+                image: agnifan
+                state_image:
+                  'on': /local/icons/fan_offf.png
+                  'off': /local/icons/fan_off.png
+                tap_action:
+                  action: toggle
+                style:
+                  top: 25%
+                  left: 40%
+                  width: 5%
+                  transform: translate(-50%, -50%)
+                  transform-origin: 50% 50%
+                card_mod:
+                  style: |
+                    :host {
+                      animation: spin 2s linear infinite;
+                      {% if is_state('switch.magicpad_s1_plus_305c_switch3','on') %}
+                        animation-play-state: running;
+                      {% else %}
+                        animation-play-state: paused;
+                      {% endif %}
+                    }
+                    @keyframes spin {
+                      from { transform: translate(-50%, -50%) rotate(0deg); }
+                      to   { transform: translate(-50%, -50%) rotate(360deg); }
+                    }
+              - type: image
+                entity: light.aqara_wall_switch_eu
+                image: gentswashroomfan
+                state_image:
+                  'on': /local/icons/exfan.png?v
+                  'off': /local/icons/exfanoff.png?v
+                tap_action:
+                  action: toggle
+                style:
+                  top: 68.5%
+                  left: 71%
+                  width: 2%
+                  transform: translate(-50%, -50%)
+                  transform-origin: 50% 50%
+                card_mod:
+                  style: |
+                    :host {
+                      animation: spin 2s linear infinite;
+                      {% if is_state('light.aqara_wall_switch_eu','on') %}
+                        animation-play-state: running;
+                      {% else %}
+                        animation-play-state: paused;
+                      {% endif %}
+                    }
+                    @keyframes spin {
+                      from { transform: translate(-50%, -50%) rotate(0deg); }
+                      to   { transform: translate(-50%, -50%) rotate(360deg); }
+                    }
+              - type: image
+                entity: light.aqara_dual_relay_module_t2_2
+                image: femalewashroomfan
+                state_image:
+                  'on': /local/icons/exfan.png?v
+                  'off': /local/icons/exfanoff.png?v
+                tap_action:
+                  action: toggle
+                style:
+                  top: 68.5%
+                  left: 78%
+                  width: 2%
+                  transform: translate(-50%, -50%)
+                  transform-origin: 50% 50%
+                card_mod:
+                  style: |
+                    :host {
+                      animation: spin 2s linear infinite;
+                      {% if is_state('light.aqara_dual_relay_module_t2_2','on') %}
+                        animation-play-state: running;
+                      {% else %}
+                        animation-play-state: paused;
+                      {% endif %}
+                    }
+                    @keyframes spin {
+                      from { transform: translate(-50%, -50%) rotate(0deg); }
+                      to   { transform: translate(-50%, -50%) rotate(360deg); }
+                    }
+              - type: image
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 77%
+                  top: 60%
+                  width: 2%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                title: femalewashroomlight
+                entity: light.aqara_dual_relay_module_t2
+              - type: image
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/liton1.png
+                  'off': /local/icons/litoff1.png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 70%
+                  top: 60%
+                  width: 2%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                title: gentswashroomlight
+                entity: light.aqara_wall_switch_eu_2
+              - type: image
+                style:
+                  left: 50%
+                  top: 50%
+                entity: cover.aqara_curtain_controller
+                tap_action:
+                  action: toggle
+                title: curtain
+              - type: image
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/led_on1.png
+                  'off': /local/icons/led1.png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 48.5%
+                  top: 19%
+                  width: 2.6%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: light.aqara_smart_wall_switch_z1_pro_19
+                title: lobbyledstrip
+              - type: image
+                image: /local/icons/prithvi1.png
+                state_image:
+                  'on': /local/icons/prithvion (1).png
+                  'off': /local/icons/prithvioff (1).png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 55%
+                  top: 75.7%
+                  width: 3%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: group.prithvi_devices
+                title: PRITHVI
+              - type: image
+                image: /local/icons/bulboff.png
+                state_image:
+                  'on': /local/icons/led_on1.png
+                  'off': /local/icons/led1.png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 65%
+                  top: 19%
+                  width: 2.6%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: light.aqara_smart_wall_switch_z1_pro_19
+                title: lobbyledstrip
+              - type: image
+                image: /local/icons/salesoff (1).png
+                state_image:
+                  'on': /local/icons/saleson (1).png
+                  'off': /local/icons/salesoff (1).png?v
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 22.2%
+                  top: 68.8%
+                  width: 3%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: group.room_devices
+                title: SALES
+              - type: image
+                image: /local/icons/crmon.png
+                state_image:
+                  'on': /local/icons/crmon (1).png?v=22
+                  'off': /local/icons/crmoff (1).png?v=2222
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 22.2%
+                  top: 43.5%
+                  width: 3%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: group.crm_devices
+                title: CRM
+              - type: image
+                image: /local/icons/akash (1).png
+                state_image:
+                  'on': /local/icons/akashon (1).png?v=22222
+                  'off': /local/icons/akashoff (1).png?v=22
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 41.8%
+                  top: 72.7%
+                  width: 3%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: group.akash_devices
+                title: AKASH
+              - type: image
+                image: /local/icons/vayuon (1).png
+                state_image:
+                  'on': /local/icons/vayuon (1).png
+                  'off': /local/icons/vayuoff (1).png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 60%
+                  top: 57.2%
+                  width: 3%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: group.vayu_devices
+                title: VAYU
+              - type: image
+                image: /local/icons/jala.png
+                state_image:
+                  'on': /local/icons/jalaon (1).png
+                  'off': /local/icons/jalaoff (1).png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 45.1%
+                  top: 41%
+                  width: 3%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: group.jala_devices
+                title: JALA
+              - type: image
+                image: /local/icons/agni.png
+                state_image:
+                  'on': /local/icons/agnion (1).png
+                  'off': /local/icons/agnioff (1).png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 39%
+                  top: 4.8%
+                  width: 3%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: group.agni_devices
+                title: AGNI
+              - type: image
+                image: /local/icons/lobby.png
+                state_image:
+                  'on': /local/icons/lobby.png
+                  'off': /local/icons/lobbyo.png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 50%
+                  top: 4.8%
+                  width: 3%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: group.lobby_devices
+                title: LOBBY
+              - type: image
+                image: /local/icons/storeon (1).png
+                state_image:
+                  'on': /local/icons/storeon (1).png
+                  'off': /local/icons/storeoff (1).png
+                tap_action:
+                  action: toggle
+                hold_action:
+                  action: more-info
+                style:
+                  left: 67.1%
+                  top: 43.5%
+                  width: 3%
+                  transform: rotate(0deg)
+                  transform-origin: center
+                entity: group.washroom_devices
+                title: STORE
+              - type: image
+                style:
+                  left: 75%
+                  top: 25%
+                  width: 10%
+                entity: scene.goodmorning
+                title: GM
+                image: /local/icons/sun.png
+                tap_action:
+                  action: toggle
+              - type: image
+                style:
+                  left: 86%
+                  top: 25%
+                  width: 10%
+                entity: scene.goodnight
+                title: GN
+                image: /local/icons/moon.png
+                tap_action:
+                  action: toggle
+              - type: image
+                entity: light.aqara_smart_wall_switch_z1_pro_10
+                image: salesfan
+                state_image:
+                  'on': /local/icons/fan_offf.png
+                  'off': /local/icons/fan_off.png
+                tap_action:
+                  action: toggle
+                style:
+                  top: 81%
+                  left: 13.6%
+                  width: 5%
+                  transform: translate(-50%, -50%)
+                  transform-origin: 50% 50%
+                card_mod:
+                  style: |
+                    :host {
+                      animation: spin 2s linear infinite;
+                      {% if is_state('light.aqara_smart_wall_switch_z1_pro_10','on') %}
+                        animation-play-state: running;
+                      {% else %}
+                        animation-play-state: paused;
+                      {% endif %}
+                    }
+                    @keyframes spin {
+                      from { transform: translate(-50%, -50%) rotate(0deg); }
+                      to   { transform: translate(-50%, -50%) rotate(360deg); }
+                    }
+              - type: image
+                entity: cover.aqara_curtain_controller
+                state_image:
+                  open: /local/icons/curtaino.png?v=22
+                  closed: /local/icons/curtainf.png
+                tap_action:
+                  action: more-info
+                hold_action:
+                  action: more-info
+                style:
+                  top: 23.3%
+                  left: 26.7%
+                  width: 11%
+                  transform: rotate(270deg)
+            image: /local/icons/plan2.png
+            grid_options:
+              rows: 16
+              columns: 50
+        column_span: 4
