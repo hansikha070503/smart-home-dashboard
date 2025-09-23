@@ -1,6 +1,5 @@
 # Smart Home Dashboard — Project Report
 
----
 
 ## 🌟 Introduction
 The vision was simple: controlling a smart home should feel as natural as tapping on a floor plan.  
@@ -60,7 +59,6 @@ views:
 
 ## 🎥 Videos
 
-## 🎥 Demo Videos
 
 <div style="display: flex; gap: 10px; width: 100%;">
 
@@ -83,9 +81,9 @@ views:
   <div style="flex: 1; text-align: center;">
     <p><b>Goodnight & Good Morning Scenes</b></p>
     <video width="100%" controls>
-      <source src="videos/gn_gm_video.mp4" type="video/mp4">
+      <source src="videos/gn&gm_video.mp4" type="video/mp4">
     </video>
-    <p><a href="videos/gn_gm_video.mp4">▶️ Watch / Download</a></p>
+    <p><a href="videos/gn&gm_video.mp4">▶️ Watch / Download</a></p>
   </div>
 
 </div>
