@@ -24,7 +24,7 @@ To bring this idea to life, our team built a **custom smart home dashboard** usi
 ---
 
 ## 📂 Proof of Implementation
-YAML configuration files are available in the [`yaml-proof`](../yaml-proof) folder.  
+YAML configuration files are available in the [`yaml-proof`](../yaml-proof/floor_plan.yaml) folder.  
 
 Example snippet:
 
