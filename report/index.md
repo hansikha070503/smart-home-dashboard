@@ -29,11 +29,20 @@ YAML configuration files are available in the [`yaml-proof`](../yaml-proof/floor
 Example snippet:
 
 ```yaml
-type: picture-elements
-image: /local/images/floorplan.png
-elements:
-  - type: state-icon
-    entity: light.living_room
-    style:
-      top: 40%
-      left: 30%
+views:
+  - title: Home
+    sections:
+      - type: grid
+        cards:
+          - type: picture-elements
+            elements:
+              - type: image
+                entity: light.aqara_smart_wall_switch_z1_pro_3
+                image: mr3fan
+                state_image:
+                  'on': /local/icons/fan_offf.png
+                  'off': /local/icons/fan_off.png
+                tap_action:
+                  action: toggle
+.
+.
