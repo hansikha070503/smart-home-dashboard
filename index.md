@@ -59,12 +59,11 @@ views:
 ## 🎥 Videos
 
 
----
-
 <div align="center">
+
 
 | Room-Level Switching | Curtain Automation | Goodnight & Good Morning Scenes |
 |:--------------------:|:------------------:|:-----------------------------:|
-| <video width="250" controls><source src="videos/room_video.mp4" type="video/mp4"></video><br>[▶️ Watch / Download](videos/room_video.mp4) | <video width="250" controls><source src="videos/curtain_video.mp4" type="video/mp4"></video><br>[▶️ Watch / Download](videos/curtain_video.mp4) | <video width="250" controls><source src="videos/gn&gm_video.mp4" type="video/mp4"></video><br>[▶️ Watch / Download](videos/gn&gm_video.mp4) |
+| <video width="250" controls><source src="videos/room_video.mp4" type="video/mp4"></video><br>[▶️ Watch / Download](videos/room_video.mp4) | <video width="250" controls><source src="videos/curtain_video.mp4" type="video/mp4"></video><br>[▶️ Watch / Download](videos/curtain_video.mp4) | <video width="250" controls><source src="videos/gn_gm_video.mp4" type="video/mp4"></video><br>[▶️ Watch / Download](videos/gn_gm_video.mp4) |
 
 </div>
