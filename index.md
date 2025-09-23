@@ -1,5 +1,7 @@
 # Smart Home Dashboard — Project Report
 
+---
+
 ## 🌟 Introduction
 The vision was simple: controlling a smart home should feel as natural as tapping on a floor plan.  
 
@@ -58,33 +60,32 @@ views:
 
 ## 🎥 Videos
 
-
-## 🎥 Videos
+## 🎥 Demo Videos
 
 <div style="display: flex; gap: 10px; width: 100%;">
 
-  <div style="flex: 1;">
-    <p align="center"><b>Room-Level Switching</b></p>
+  <div style="flex: 1; text-align: center;">
+    <p><b>Room-Level Switching</b></p>
     <video width="100%" controls>
       <source src="videos/room_video.mp4" type="video/mp4">
     </video>
-    <p align="center">[▶️ Watch / Download](videos/room_video.mp4)</p>
+    <p><a href="videos/room_video.mp4">▶️ Watch / Download</a></p>
   </div>
 
-  <div style="flex: 1;">
-    <p align="center"><b>Curtain Automation</b></p>
+  <div style="flex: 1; text-align: center;">
+    <p><b>Curtain Automation</b></p>
     <video width="100%" controls>
       <source src="videos/curtain_video.mp4" type="video/mp4">
     </video>
-    <p align="center">[▶️ Watch / Download](videos/curtain_video.mp4)</p>
+    <p><a href="videos/curtain_video.mp4">▶️ Watch / Download</a></p>
   </div>
 
-  <div style="flex: 1;">
-    <p align="center"><b>Goodnight & Good Morning Scenes</b></p>
+  <div style="flex: 1; text-align: center;">
+    <p><b>Goodnight & Good Morning Scenes</b></p>
     <video width="100%" controls>
-      <source src="videos/gn&gm_video.mp4" type="video/mp4">
+      <source src="videos/gn_gm_video.mp4" type="video/mp4">
     </video>
-    <p align="center">[▶️ Watch / Download](videos/gn&gm_video.mp4)</p>
+    <p><a href="videos/gn_gm_video.mp4">▶️ Watch / Download</a></p>
   </div>
 
 </div>
