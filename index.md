@@ -59,11 +59,32 @@ views:
 ## 🎥 Videos
 
 
-<div align="center">
+## 🎥 Videos
 
+<div style="display: flex; gap: 10px; width: 100%;">
 
-| Room-Level Switching | Curtain Automation | Goodnight & Good Morning Scenes |
-|:--------------------:|:------------------:|:-----------------------------:|
-| <video width="250" controls><source src="videos/room_video.mp4" type="video/mp4"></video><br>[▶️ Watch / Download](videos/room_video.mp4) | <video width="250" controls><source src="videos/curtain_video.mp4" type="video/mp4"></video><br>[▶️ Watch / Download](videos/curtain_video.mp4) | <video width="250" controls><source src="videos/gn_gm_video.mp4" type="video/mp4"></video><br>[▶️ Watch / Download](videos/gn_gm_video.mp4) |
+  <div style="flex: 1;">
+    <p align="center"><b>Room-Level Switching</b></p>
+    <video width="100%" controls>
+      <source src="videos/room_video.mp4" type="video/mp4">
+    </video>
+    <p align="center">[▶️ Watch / Download](videos/room_video.mp4)</p>
+  </div>
+
+  <div style="flex: 1;">
+    <p align="center"><b>Curtain Automation</b></p>
+    <video width="100%" controls>
+      <source src="videos/curtain_video.mp4" type="video/mp4">
+    </video>
+    <p align="center">[▶️ Watch / Download](videos/curtain_video.mp4)</p>
+  </div>
+
+  <div style="flex: 1;">
+    <p align="center"><b>Goodnight & Good Morning Scenes</b></p>
+    <video width="100%" controls>
+      <source src="videos/gn&gm_video.mp4" type="video/mp4">
+    </video>
+    <p align="center">[▶️ Watch / Download](videos/gn&gm_video.mp4)</p>
+  </div>
 
 </div>
