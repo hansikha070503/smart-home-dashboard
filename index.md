@@ -53,13 +53,9 @@ views:
 ## 📸 Dashboard
 ![Dashboard Preview](images/dashboard.png)
 
-
 ---
 
-
 ## 🎥 Videos
-
-
 <div style="display: flex; gap: 10px; width: 100%;">
 
   <div style="flex: 1; text-align: center;">
@@ -87,3 +83,27 @@ views:
   </div>
 
 </div>
+
+---
+
+## 👥 Team
+
+This project was built by: Abhilash, Amogh, Chaitra and Hansikha Venkatesh
+
+---
+
+## 🔮 Future Scope
+
+- Multi-floor dashboard integration
+
+- Voice assistant compatibility (Alexa, Google Home, Siri)
+
+- Energy monitoring and analytics dashboard
+
+- Expanded automation scenes (e.g., Work Mode, Movie Night)
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License
